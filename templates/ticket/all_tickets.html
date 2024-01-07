@@ -13,8 +13,7 @@
             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">title</th>
             <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Created on</th>
             <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Assinged to</th>
-            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
-            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
+            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">View Details</th>
           </tr>
         </thead>
         <tbody>
@@ -54,7 +53,7 @@
             </td>
             {%endif%}
             <td class="align-middle text-center text-sm " >
-              <a href='{% url 'ticket-details' ticket.pk %}'style='color:white;'>View Details</a>
+              <a href='{% url 'ticket-details' ticket.pk %}' class='text-light'>View Details</a>
             </td>
           
           </tr>
